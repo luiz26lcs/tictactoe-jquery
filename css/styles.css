@@ -1,0 +1,113 @@
+body {
+  background-color: #8FBDD3;
+  text-align: center;
+}
+
+.center {
+  background-image: url("../images/center.png");
+}
+
+.game-btn {
+  width: 160px;
+  height: 160px;
+  font-size: 5rem;
+  background-color: #8FBDD3;
+  color: #8FBDD3;
+  margin: 0;
+  border: 0;
+}
+
+.game-btn:disabled {
+  color: black;
+}
+
+.game-box {
+  font-size: 0;
+}
+
+.top-center {
+  border-right: 10px solid #000000;
+  border-left:  10px solid #000000;
+  border-bottom: 10px solid #000000;
+}
+
+.top-left {
+  border-bottom: 10px solid #000000;
+  border-right:  10px solid #000000;
+}
+
+.top-right {
+  border-bottom: 10px solid #000000;
+  border-left:  10px solid #000000;
+}
+
+.mid-center {
+  border: 10px solid #000000;
+}
+
+.mid-left {
+  border-top: 10px solid #000000;
+  border-bottom: 10px solid #000000;
+  border-right:  10px solid #000000;
+}
+
+.mid-right {
+  border-top: 10px solid #000000;
+  border-bottom: 10px solid #000000;
+  border-left:  10px solid #000000;
+}
+
+.bottom-center {
+  border-top: 10px solid #000000;
+  border-right: 10px solid #000000;
+  border-left:  10px solid #000000;
+}
+
+.bottom-left {
+  border-top: 10px solid #000000;
+  border-right:  10px solid #000000;
+}
+
+.bottom-right {
+  border-top: 10px solid #000000;
+  border-left:  10px solid #000000;
+}
+
+.restart-btn {
+	box-shadow:inset 0px 1px 10px 0px #91b8b3;
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:7px;
+	border:2px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:22px;
+	font-weight:bold;
+	padding:18px 40px;
+	text-decoration:none;
+	text-shadow:0px -1px 5px #2b665e;
+}
+.restart-btn:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+.restart-btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+.scoreboard {
+  display: none;
+}
+
+.title {
+  font-size: 5rem;
+}
+
+#score {
+  font-size: 4rem;
+  padding: 100px;
+}
